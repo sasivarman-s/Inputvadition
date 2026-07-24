@@ -20,6 +20,7 @@ function validation(email, password) {
         info1.style.color = "darkgreen"
     } else {
         info1.innerHTML = "Invalid Email format"
+        info1.style.color="red"
     }
 
     if (password.match(passwordregex)) {
@@ -27,5 +28,6 @@ function validation(email, password) {
         info2.style.color = "darkgreen"
     } else {
         info2.innerHTML = "Invalid password format"
+        info2.style.color="red"
     }
 }
